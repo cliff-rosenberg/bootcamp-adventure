@@ -1,0 +1,19 @@
+{
+  "name": "bootcamp-adventure",
+  "version": "1.0.0",
+  "description": "This is the final project for our programming bootcamp",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cliff-rosenberg/bootcamp-adventure.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cliff-rosenberg/bootcamp-adventure/issues"
+  },
+  "homepage": "https://github.com/cliff-rosenberg/bootcamp-adventure#readme"
+}
