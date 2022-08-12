@@ -19,7 +19,7 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  skills: [
+  location: [
     {
       type: String,
       trim: true,
