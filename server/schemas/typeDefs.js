@@ -1,6 +1,18 @@
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
+  type Choices {
+    text: String
+    location: Number
+  }
+
+  type Game {
+    _id: ID
+    mapLocation: Number
+    paragraph: String
+    choices: [Choices]!
+  }
+
   type Profile {
     _id: ID
     name: String
