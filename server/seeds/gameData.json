@@ -1,0 +1,217 @@
+[
+  {
+    "mapLocation": 1,
+    "paragraph": "Welcome to your first day of coding bootcamp! Did you do your pre-work, including 15 modules, 20 installations, and 5 virtual tours of various learning platforms?",
+    "choices": [
+      {
+        "text": "Yes",
+        "location": 2
+      },
+      {
+        "text": "No",
+        "location": 3
+      }
+    ]
+  },
+  {
+    "mapLocation": 2,
+    "paragraph": "Congratulations, you must really like work! We will be spending the first two classes going over the modules and installations, so I hope you found a good Reddit thread to browse, because otherwise this could get really boring. Also, the parent company of the parent company of the educational provider that partners with the university sponsoring this bootcamp was recently acquired, so we will be sending you new learning platforms to sign up for.",
+    "choices": [
+      {
+        "text": "Proceed to Day 2",
+        "location": 4
+      }
+    ]
+  },
+  {
+    "mapLocation": 3,
+    "paragraph": "You will be fine, unless you forget to mute your Zoom, in which case your instructional staff and students will all know how much you enjoy nachos.",
+    "choices": [
+      {
+        "text": "Proceed to Day 2",
+        "location": 4
+      }
+    ]
+  },
+  {
+    "mapLocation": 4,
+    "paragraph": "You have your first assignment, and have scheduled four hours for study, as was recommended when you signed up for class. You go to open VS Code, and get an error message that reads: “[main 2020-05-10T05:17:56.317Z] Error: UNKNOWN: unknown error, mkdir”. What do you do?",
+    "choices": [
+      {
+        "text": "Google it.",
+        "location": 5
+      },
+      {
+        "text": "Stare at the screen in disbelief.",
+        "location": 6
+      }
+    ]
+  },
+  {
+    "mapLocation": 5,
+    "paragraph": "You paste the error into the Google search bar, and the first 10 hits lead you to stackoverflow.com. Putting aside the vague feeling that you are being watched, you discover that a quick uninstall/reinstall gets you back in business in five minutes. Unfortunately, you spend the remaining 235 minutes on an epic Google rabbit hole that concludes with you being the proud owner of five productivity peripherals you will never use the entire bootcamp.",
+    "choices": [
+      {
+        "text": "Proceed to Day 3",
+        "location": 7
+      }
+    ]
+  },
+  {
+    "mapLocation": 6,
+    "paragraph": "After 10 minutes of staring, you lose interest and get up for a snack. Three cancelled delivery orders later, you have your Ben & Jerry's warmed to a gazpacho-like texture that you pretend to like. Mmm, dessert soup.",
+    "choices": [
+      {
+        "text": "Proceed to Day 3",
+        "location": 7
+      }
+    ]
+  },
+  {
+    "mapLocation": 7,
+    "paragraph": "In your second class, you started working in Zoom breakout rooms. The instructional staff encouraged everyone to participate and get to know their virtual classmates. You decided to …",
+    "choices": [
+      {
+        "text": "Share a picture of your dog.",
+        "location": 8
+      },
+      {
+        "text": "Stay on mute with video off.",
+        "location": 9
+      }
+    ]
+  },
+  {
+    "mapLocation": 8,
+    "paragraph": "Even though your group did not accomplish anything related to HTML, you did get to talking with everyone, and you feel a lot better that everyone else has similar concerns, and that you’ll be able to support each other.",
+    "choices": [
+      {
+        "text": "Proceed to Day 4",
+        "location": 10
+      }
+    ]
+  },
+  {
+    "mapLocation": 9,
+    "paragraph": "As did everyone else! On the internet, we call that a “Zoom standoff”.",
+    "choices": [
+      {
+        "text": "Proceed to Day 4",
+        "location": 10
+      }
+    ]
+  },
+  {
+    "mapLocation": 10,
+    "paragraph": "Now that the class recordings and readings are piling up, you decided to focus and start working through them. The first link in the weekly email is a YouTube tutorial on semantic HTML. You decide to …",
+    "choices": [
+      {
+        "text": "Click on the link",
+        "location": 11
+      },
+      {
+        "text": "Start with the documentation.",
+        "location": 12
+      }
+    ]
+  },
+  {
+    "mapLocation": 11,
+    "paragraph": "After 10 minutes, you are more confused than before. However, there are plenty of related videos on the right side of the page, and you click into those. After two hours, you have not bought any supplemental instruction, so we will consider that a win.",
+    "choices": [
+      {
+        "text": "Proceed to Day 5",
+        "location": 13
+      }
+    ]
+  },
+  {
+    "mapLocation": 12,
+    "paragraph": "You read a few concise guides, bookmark a few cheat sheets, and do some practice on W3Schools. And you finish before your favorite sandwich shop starts getting busy. Hell yeah!",
+    "choices": [
+      {
+        "text": "Proceed to Day 5",
+        "location": 13
+      }
+    ]
+  },
+  {
+    "mapLocation": 13,
+    "paragraph": "Today is your first weekend class, and you really want to crush it. You set an early alarm that annoys everyone in your house (humans and dogs alike), go to the grocery store, make some breakfast, and do some stray laundry. A second alarm sounds, and you …",
+    "choices": [
+      {
+        "text": "Hit SNOOZE",
+        "location": 14
+      },
+      {
+        "text": "Go to brunch instead.",
+        "location": 15
+      }
+    ]
+  },
+  {
+    "mapLocation": 14,
+    "paragraph": "Wait, was this all a dream?! Yes, it was. You have just enough time to make instant coffee and put on a t-shirt before logging into class thirty minutes late.",
+    "choices": [
+      {
+        "text": "Proceed to Day 6",
+        "location": 16
+      }
+    ]
+  },
+  {
+    "mapLocation": 15,
+    "paragraph": "What is the point of having an absence bank if you cannot use it?",
+    "choices": [
+      {
+        "text": "Proceed to Day 6",
+        "location": 16
+      }
+    ]
+  },
+  {
+    "mapLocation": 16,
+    "paragraph": "You watched the class recording, and are reassured that you can learn CSS. Before starting your first homework assignment (due in 4 hours), you decide to take 20 minutes to …",
+    "choices": [
+      {
+        "text": "Review GitHub for relevant examples.",
+        "location": 17
+      },
+      {
+        "text": "Work on mnemonic devices.",
+        "location": 18
+      }
+    ]
+  },
+  {
+    "mapLocation": 17,
+    "paragraph": "Which you find are plentiful. You even pick up some bonus tips on how to write an effective README.",
+    "choices": [
+      {
+        "text": "Proceed to Day 7",
+        "location": 19
+      }
+    ]
+  },
+  {
+    "mapLocation": 18,
+    "paragraph": "Class … period … ID … hashtag … Caller ID shows a phone #, and periods are round like pearls, and pearls are classy … no … my class always starts on the DOT … ",
+    "choices": [
+      {
+        "text": "Proceed to Day 7",
+        "location": 19
+      }
+    ]
+  },
+  {
+    "mapLocation": 19,
+    "paragraph": "Congratulations on concluding your first week of bootcamp! You have succeeded in not blowing up the internet, and are now the owner of four prestigious GitHub badges. Make sure to print them and paste them on your local refrigerator.",
+    "choices": [
+      {
+        "text": "Return to Start",
+        "location": 1
+      }
+    ]
+  },
+  {}
+]
