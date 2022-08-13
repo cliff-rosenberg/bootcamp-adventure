@@ -16,7 +16,7 @@ const resolvers = {
   },
 
   Mutation: {
-    addProfile: async (parent, { name, email, password }) => {
+    addUser: async (parent, { name, email, password }) => {
       const user = await User.create({ name, email, password });
       const token = signToken(user);
 
@@ -37,29 +37,6 @@ const resolvers = {
 
       const token = signToken(user);
       return { token, profile: user };
-    },
-
-    addLocation: async (parent, { userId, location }) => {
-      return User.findOneAndUpdate(
-        { _id: userId },
-        {
-          $addToSet: { location: location },
-        },
-        {
-          new: true,
-          runValidators: true,
-        }
-      );
-    },
-    removeProfile: async (parent, { userId }) => {
-      return User.findOneAndDelete({ _id: userId });
-    },
-    removeLocation: async (parent, { userId, location }) => {
-      return User.findOneAndUpdate(
-        { _id: userId },
-        { $pull: { location: location } },
-        { new: true }
-      );
     },
   },
 };
