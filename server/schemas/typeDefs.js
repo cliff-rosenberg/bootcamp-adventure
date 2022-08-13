@@ -3,12 +3,12 @@ const { gql } = require('apollo-server-express');
 const typeDefs = gql`
   type Choices {
     text: String
-    location: Number
+    location: Int
   }
 
   type Game {
     _id: ID
-    mapLocation: Number
+    mapLocation: Int
     paragraph: String
     choices: [Choices]!
   }
