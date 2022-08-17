@@ -1,6 +1,8 @@
 import React from "react";
-import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import './nav.css'
+// import Auth functions
+import Auth from "../../utils/auth";
 
 function Nav() {
 
@@ -24,7 +26,7 @@ function Nav() {
               Signup
             </Link>
           </li>
-          <li className="mx-1">
+          <li className="mx-3">
             <Link to="/login">
               Login
             </Link>
