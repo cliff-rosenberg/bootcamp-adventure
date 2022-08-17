@@ -68,8 +68,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_2_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_2_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_2_yes")} className="btn btn-primary text-center w-25"> Go to Day 2 </button>
                         </div>
                     </div>
                 </>
@@ -84,8 +83,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_3_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_3_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_3_yes")} className="btn btn-primary text-center w-25"> Go to Day 2 </button>
                         </div>
                     </div>
                 </>
@@ -99,8 +97,8 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_4_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_4_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_4_yes")} className="btn btn-primary text-center w-25"> Google it. </button>
+                        <button onClick={() => setQuestion("q_4_no")} className="btn btn-primary text-center w-25"> Stare at the screen in disbelief. </button>
                         </div>
                     </div>
                 </>
@@ -114,8 +112,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_5_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_5_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_5_yes")} className="btn btn-primary text-center w-25"> Go to Day 3 </button>
                         </div>
                     </div>
                 </>
@@ -129,8 +126,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_6_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_6_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_6_yes")} className="btn btn-primary text-center w-25"> Go to Day 3 </button>
                         </div>
                     </div>
                 </>
@@ -144,8 +140,8 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_7_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_7_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_7_yes")} className="btn btn-primary text-center w-25"> Share a picture of your dog. </button>
+                        <button onClick={() => setQuestion("q_7_no")} className="btn btn-primary text-center w-25"> Stay on MUTE with video OFF. </button>
                         </div>
                     </div>
                 </>
@@ -159,8 +155,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_8_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_8_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_8_yes")} className="btn btn-primary text-center w-25"> Go to Day 4 </button>
                         </div>
                     </div>
                 </>
@@ -174,8 +169,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_9_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_9_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_9_yes")} className="btn btn-primary text-center w-25"> Go to Day 4 </button>
                         </div>
                     </div>
                 </>
@@ -189,8 +183,8 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_10_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_10_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_10_yes")} className="btn btn-primary text-center w-25"> Click on the link. </button>
+                        <button onClick={() => setQuestion("q_10_no")} className="btn btn-primary text-center w-25"> Start with the documentation. </button>
                         </div>
                     </div>
                 </>
@@ -204,8 +198,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_11_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_11_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_11_yes")} className="btn btn-primary text-center w-25"> Go to Day 5 </button>
                         </div>
                     </div>
                 </>
@@ -219,8 +212,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_12_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_12_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_12_yes")} className="btn btn-primary text-center w-25"> Go to Day 5 </button>
                         </div>
                     </div>
                 </>
@@ -234,8 +226,8 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_13_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_13_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_13_yes")} className="btn btn-primary text-center w-25"> Hit SNOOZE </button>
+                        <button onClick={() => setQuestion("q_13_no")} className="btn btn-primary text-center w-25"> Go to brunch instead. </button>
                         </div>
                     </div>
                 </>
@@ -249,8 +241,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_14_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_14_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_14_yes")} className="btn btn-primary text-center w-25"> Go to Day 6 </button>
                         </div>
                     </div>
                 </>
@@ -264,8 +255,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_15_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_15_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_15_yes")} className="btn btn-primary text-center w-25"> Go to Day 6 </button>
                         </div>
                     </div>
                 </>
@@ -279,8 +269,8 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_16_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_16_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_16_yes")} className="btn btn-primary text-center w-25"> Review GitHub for examples. </button>
+                        <button onClick={() => setQuestion("q_16_no")} className="btn btn-primary text-center w-25"> Work on mnemonic devices. </button>
                         </div>
                     </div>
                 </>
@@ -294,8 +284,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_17_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_17_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_17_yes")} className="btn btn-primary text-center w-25"> Go to Day 7. </button>
                         </div>
                     </div>
                 </>
@@ -309,8 +298,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_18_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_18_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_18_yes")} className="btn btn-primary text-center w-25"> Go to Day 7. </button>
                         </div>
                     </div>
                 </>
@@ -324,8 +312,7 @@ function Questions(props) {
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_19_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_19_no")} className="btn btn-primary text-center w-25"> No </button>
+                        <button onClick={() => setQuestion("q_19_yes")} className="btn btn-primary text-center w-25"> End </button>
                         </div>
                     </div>
                 </>
