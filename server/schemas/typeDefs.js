@@ -13,31 +13,29 @@ const typeDefs = gql`
     choices: [Choices]!
   }
 
-  type Profile {
+  type User {
     _id: ID
-    name: String
+    username: String
     email: String
-    # field to store the user's password
     password: String
-    location: String
   }
 
-  # Set up an Auth type to handle returning data from a profile creating or user login
+  # Set up an Auth type to handle returning data from user login
   type Auth {
     token: ID!
-    profile: Profile
+    user: User
   }
 
   type Query {
-    profiles: [Profile]!
-    profile(profileId: ID!): Profile
+    users: [User]
+    user(username: String!): User
+    me: User
   }
 
   type Mutation {
     # Set up mutations to handle creating a profile or logging into a profile and return Auth type
-    addUser(name: String!, email: String!, password: String!): Auth
+    addUser(username: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
-    
   }
 `;
 
