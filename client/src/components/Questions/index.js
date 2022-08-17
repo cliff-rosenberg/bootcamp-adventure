@@ -36,7 +36,7 @@ function Questions(props) {
                         <div className="col-12 text-center mt-3">
                             <img src="/images/Logo1.png" className="img w-100"></img>
                         </div>
-                    </div> */}
+            </div> */}
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
@@ -92,7 +92,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_3_yes' && start) {
+        }else if((question === 'q_3_yes' || question === 'q_3_no' || question === 'q_2_yes' || question === 'q_2_no') && start) {
             return (
                 <>
                     <Question4 />
@@ -122,7 +122,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_5_yes' && start) {
+        }else if(question === 'q_4_no' && start) {
             return (
                 <>
                     <Question6 />
@@ -137,7 +137,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_6_yes' && start) {
+        }else if((question === 'q_6_yes' || question === 'q_6_no' || question === 'q_5_yes' || question === 'q_5_no') && start) {
             return (
                 <>
                     <Question7 />
@@ -167,7 +167,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_8_yes' && start) {
+        }else if(question === 'q_7_no' && start) {
             return (
                 <>
                     <Question9 />
@@ -182,7 +182,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_9_yes' && start) {
+        }else if((question === 'q_9_yes' || question === 'q_9_no' || question === 'q_8_yes' || question === 'q_8_no') && start) {
             return (
                 <>
                     <Question10 />
@@ -212,7 +212,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_11_yes' && start) {
+        }else if(question === 'q_10_no' && start) {
             return (
                 <>
                     <Question12 />
@@ -227,7 +227,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_12_yes' && start) {
+        }else if((question === 'q_12_yes' || question === 'q_12_no' || question === 'q_11_yes' || question === 'q_11_no') && start) {
             return (
                 <>
                     <Question13 />
@@ -257,7 +257,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_14_yes' && start) {
+        }else if(question === 'q_13_no' && start) {
             return (
                 <>
                     <Question15 />
@@ -272,7 +272,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_15_yes' && start) {
+        }else if((question === 'q_15_yes' || question === 'q_15_no' || question === 'q_14_yes' || question === 'q_14_no') && start) {
             return (
                 <>
                     <Question16 />
@@ -302,7 +302,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_17_yes' && start) {
+        }else if(question === 'q_16_no' && start) {
             return (
                 <>
                     <Question18 />
@@ -317,7 +317,7 @@ function Questions(props) {
                 
         
             )
-        }else if(question === 'q_18_yes' && start) {
+        }else if((question === 'q_18_yes' || question === 'q_18_no' || question === 'q_17_yes' || question === 'q_17_no') && start) {
             return (
                 <>
                     <Question19 />
