@@ -33,9 +33,8 @@ function Login(props) {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
-      <div className="col-12 col-lg-10">
-        <div className="card">
+    <main className="d-flex justify-content-center mb-4">
+        <div className="card w-25 text-center">
           <h4 className="card-header bg-dark text-light p-2">Login</h4>
           <div className="card-body">
             {data ? (
@@ -78,7 +77,6 @@ function Login(props) {
             )}
           </div>
         </div>
-      </div>
     </main>
   );
 };
