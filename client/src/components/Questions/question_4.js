@@ -4,7 +4,7 @@ function Question4() {
     <>
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <img src="images/gifs/q_a_4.gif" className="img w-50"></img>
+                <img src="images/gifs/q_a_4.gif" alt="question four GIF" className="img w-50"></img>
             </div>
         </div>
 

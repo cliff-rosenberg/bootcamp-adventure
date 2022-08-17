@@ -40,11 +40,10 @@ function Signup() {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
-      <div className="col-12 col-lg-10">
-        <div className="card">
+    <div className="d-flex justify-content-center mb-4">
+        <div className="card w-25 text-center">
           <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
-          <div className="card-body">
+          <div className="card-body ">
             {data ? (
               <p>
                 Success! You may now head{' '}
@@ -77,7 +76,7 @@ function Signup() {
                   onChange={handleChange}
                 />
                 <button
-                  className="btn btn-block btn-primary"
+                  className="btn btn-primary"
                   style={{ cursor: 'pointer' }}
                   type="submit"
                 >
@@ -93,8 +92,7 @@ function Signup() {
             )}
           </div>
         </div>
-      </div>
-    </main>
+    </div>
   );
 };
 

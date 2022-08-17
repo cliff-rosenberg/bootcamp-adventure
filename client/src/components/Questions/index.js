@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// import questions
 import Question1 from './question_1'
 import Question2 from './question_2'
 import Question3 from './question_3'
@@ -25,17 +26,17 @@ function Questions(props) {
     const [start, setStart] = useState(false);
     const [question, setQuestion] = useState("");
 
+    // function to run through game questions
     function loadQuestion() {
 
-     
         if(!start && question === "") {
             return (
                 <>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-12 text-center mt-3">
                             <img src="/images/Logo1.png" className="img w-100"></img>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
@@ -43,8 +44,6 @@ function Questions(props) {
                         </div>
                     </div>
                 </>
-                
-        
             )
         }
         else if(start && question === "") {
@@ -335,13 +334,12 @@ function Questions(props) {
             )
         }
     }
-  
+    //* game starts here
     return (
         <div className="container">
             {loadQuestion()}
         </div>
-        
     );
-  }
+};
   
 export default Questions;
