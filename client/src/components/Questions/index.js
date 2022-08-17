@@ -31,11 +31,11 @@ function Questions(props) {
         if(!start && question === "") {
             return (
                 <>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-12 text-center mt-3">
                             <img src="/images/Logo1.png" className="img w-100"></img>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
