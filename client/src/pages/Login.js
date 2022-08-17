@@ -33,7 +33,7 @@ function Login(props) {
   };
 
   return (
-    <main className="d-flex justify-content-center mb-4">
+    <main className="d-flex justify-content-center mb-4 pt-5">
         <div className="card w-25 text-center">
           <h4 className="card-header bg-dark text-light p-2">Login</h4>
           <div className="card-body">

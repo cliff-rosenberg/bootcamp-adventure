@@ -19,34 +19,52 @@
 
 Link: [MIT License](https://opensource.org/licenses/MIT)
 
-## Description
+## Description 👀
+
+This is a simple text-based game rendered by React that allows the user to navigate through a series of questions that move them through some humorous scenarios that *may* 😁 occur in a coding bootcamp student's journey. The application provides page user authentication though JSON Web Tokens. User accounts are handled by the Apollo Client interface and stored in a MongoDB database.
+
+## Installation 🖥
 
 TODO
 
-## Installation
+## Screenshots 📸
+
+Initial launch screen:
+
+![initial load screen](./assets/initial-page-screenshot.png)
+
+## Usage 👈
 
 TODO
 
-## Screenshots
+## Credits 💬
 
-TODO
+The following technologies were used in this project:
 
-## Usage
+[React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
-TODO
+[Apollo Client](https://www.apollographql.com/apollo-client) - A framework for binding data to your UI with GraphQL
 
-## Credits
+[MongoDB](https://www.mongodb.com/) - A "NoSQL" database that uses a JSON-like document model
 
-TODO
+[Mongoose.js](https://mongoosejs.com/) - The ORM for MongoDB in Node.js
 
 ## Contributing
 
   [Contributor Covenant](https://www.contributor-covenant.org/)
 
-## Testing
+## Testing ✅
 
   No testing is provided.
 
-## Additional Info
+## Additional Info ❓ 
 
-TODO
+This app was created by the following coders:
+
+[Leah Bredemeyer](https://github.com/lnbredemeyer)
+
+[Kevin Doolittle](https://github.com/Doolittle28) 
+
+[Matt Estes](https://github.com/matthewestes33)
+
+[Cliff Rosenberg](https://github.com/cliff-rosenberg)

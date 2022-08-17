@@ -40,7 +40,7 @@ function Signup() {
   };
 
   return (
-    <div className="d-flex justify-content-center mb-4">
+    <div className="d-flex justify-content-center mb-4 pt-5">
         <div className="card w-25 text-center">
           <h4 className="card-header bg-dark text-light p-2">Sign Up</h4>
           <div className="card-body ">
