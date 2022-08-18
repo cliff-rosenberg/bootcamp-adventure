@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { loadStripe } from "@stripe/stripe-js";
 
 // import questions
 import Question1 from './question_1'
@@ -21,6 +22,37 @@ import Question17 from './question_17'
 import Question18 from './question_18'
 import Question19 from './question_19'
 
+const stripePromise = loadStripe(
+    "pk_test_51LXy9nF3v5lSXvFzKpVv4gPKvdlwKDr3mn1Hvd9ykaXCsAaZOPz91DGaoHv9Qy6cFpIf15lh50HCPzI7IksvuQuv00d18eHtzc"
+);
+
+const DonationButton = ({ itemID, amount }) => {
+    const handleClick = async (event) => {
+        const stripe = await stripePromise;
+        stripe
+            .redirectToCheckout({
+                lineItems: [{ price: itemID, quantity: 1 }],
+                mode: "payment",
+                successUrl: window.location.protocol + "//hidden-falls-09723.herokuapp.com/",
+                cancelUrl: window.location.protocol + "//hidden-falls-09723.herokuapp.com/",
+                submitType: "donate",
+            })
+            .then(function (result) {
+                if (result.error) {
+                    console.log(result);
+                }
+            });
+    };
+    return (
+        <button
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"
+            onClick={handleClick}
+        >
+            Donate {amount}$
+        </button>
+    );
+};
+
 function Questions(props) {
 
     const [start, setStart] = useState(false);
@@ -28,52 +60,50 @@ function Questions(props) {
 
     // function to run through game questions
     function loadQuestion(reset) {
-console.log(start);
-console.log(question);
-        if(!start && question === "") {
+        console.log(start);
+        console.log(question);
+        if (!start && question === "") {
             console.log('test');
             return (
-                
+
                 <>
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setStart(true)} className="btn btn-secondary text-center w-25"> Start </button>
+                          <button onClick={() => setStart(true)} className="btn btn-secondary text-center w-25"> Start </button>
                         </div>
                     </div>
                 </>
             )
         }
-        else if(start && question === "") {
+        else if (start && question === "") {
             return (
                 <>
                     <Question1 />
 
                     <div className="row">
-                        <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_1_yes")} className="btn btn-secondary text-center w-25"> Yes </button>
+                        <div className="col-12 text-center mt-3"><button onClick={() => setQuestion("q_1_yes")} className="btn btn-secondary text-center w-25"> Yes </button>
                         <button onClick={() => setQuestion("q_1_no")} className="btn btn-secondary text-center w-25 ms-2"> No </button>
                         </div>
                     </div>
                 </>
-                
+
             )
         }
-        else if(question === 'q_1_yes' && start) {
+        else if (question === 'q_1_yes' && start) {
             return (
                 <>
                     <Question2 />
 
                     <div className="row">
-                        <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_2_yes")} className="btn btn-secondary text-center w-25"> Go to Day 2 </button>
+                        <div className="col-12 text-center mt-3"><button onClick={() => setQuestion("q_2_yes")} className="btn btn-secondary text-center w-25"> Go to Day 2 </button>
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
         }
-        else if(question === 'q_1_no' && start) {
+        else if (question === 'q_1_no' && start) {
             return (
                 <>
                     <Question3 />
@@ -84,10 +114,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if((question === 'q_3_yes' || question === 'q_3_no' || question === 'q_2_yes' || question === 'q_2_no') && start) {
+        } else if ((question === 'q_3_yes' || question === 'q_3_no' || question === 'q_2_yes' || question === 'q_2_no') && start) {
             return (
                 <>
                     <Question4 />
@@ -99,10 +129,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_4_yes' && start) {
+        } else if (question === 'q_4_yes' && start) {
             return (
                 <>
                     <Question5 />
@@ -113,10 +143,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_4_no' && start) {
+        } else if (question === 'q_4_no' && start) {
             return (
                 <>
                     <Question6 />
@@ -127,10 +157,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if((question === 'q_6_yes' || question === 'q_6_no' || question === 'q_5_yes' || question === 'q_5_no') && start) {
+        } else if ((question === 'q_6_yes' || question === 'q_6_no' || question === 'q_5_yes' || question === 'q_5_no') && start) {
             return (
                 <>
                     <Question7 />
@@ -142,10 +172,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_7_yes' && start) {
+        } else if (question === 'q_7_yes' && start) {
             return (
                 <>
                     <Question8 />
@@ -156,10 +186,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_7_no' && start) {
+        } else if (question === 'q_7_no' && start) {
             return (
                 <>
                     <Question9 />
@@ -170,10 +200,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if((question === 'q_9_yes' || question === 'q_9_no' || question === 'q_8_yes' || question === 'q_8_no') && start) {
+        } else if ((question === 'q_9_yes' || question === 'q_9_no' || question === 'q_8_yes' || question === 'q_8_no') && start) {
             return (
                 <>
                     <Question10 />
@@ -185,10 +215,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_10_yes' && start) {
+        } else if (question === 'q_10_yes' && start) {
             return (
                 <>
                     <Question11 />
@@ -199,10 +229,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_10_no' && start) {
+        } else if (question === 'q_10_no' && start) {
             return (
                 <>
                     <Question12 />
@@ -213,10 +243,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if((question === 'q_12_yes' || question === 'q_12_no' || question === 'q_11_yes' || question === 'q_11_no') && start) {
+        } else if ((question === 'q_12_yes' || question === 'q_12_no' || question === 'q_11_yes' || question === 'q_11_no') && start) {
             return (
                 <>
                     <Question13 />
@@ -228,10 +258,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_13_yes' && start) {
+        } else if (question === 'q_13_yes' && start) {
             return (
                 <>
                     <Question14 />
@@ -242,24 +272,24 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_13_no' && start) {
+        } else if (question === 'q_13_no' && start) {
             return (
                 <>
                     <Question15 />
 
                     <div className="row">
-                        <div className="col-12 text-center mt-3">
+                        <div className="col-12 text-cente
                         <button onClick={() => setQuestion("q_15_yes")} className="btn btn-secondary text-center w-25"> Go to Day 6 </button>
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if((question === 'q_15_yes' || question === 'q_15_no' || question === 'q_14_yes' || question === 'q_14_no') && start) {
+        } else if ((question === 'q_15_yes' || question === 'q_15_no' || question === 'q_14_yes' || question === 'q_14_no') && start) {
             return (
                 <>
                     <Question16 />
@@ -271,10 +301,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_16_yes' && start) {
+        } else if (question === 'q_16_yes' && start) {
             return (
                 <>
                     <Question17 />
@@ -285,10 +315,10 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if(question === 'q_16_no' && start) {
+        } else if (question === 'q_16_no' && start) {
             return (
                 <>
                     <Question18 />
@@ -299,19 +329,22 @@ console.log(question);
                         </div>
                     </div>
                 </>
-                
-        
+
+
             )
-        }else if((question === 'q_18_yes' || question === 'q_18_no' || question === 'q_17_yes' || question === 'q_17_no') && start) {
+        } else if ((question === 'q_18_yes' || question === 'q_18_no' || question === 'q_17_yes' || question === 'q_17_no') && start) {
             return (
                 <>
                     <Question19 />
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setStart(false) & setQuestion('')} className="btn btn-secondary text-center w-25"> DONATE HERE </button>
+                            <DonationButton
+                                amount={"5.00"}
+                                itemID="price_1LXyCiF3v5lSXvFz52sXfYhQ"
+                            ></DonationButton>
                         </div>
-                    </div>  
+                    </div>
                 </>
             )
         }
@@ -323,5 +356,5 @@ console.log(question);
         </div>
     );
 };
-  
+
 export default Questions;
