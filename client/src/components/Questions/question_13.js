@@ -10,7 +10,7 @@ function Question13() {
 
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <p>MERGE to DAY 5: Today is your first weekend class, and you really want to crush it. You set an early alarm that annoys everyone in your house (humans and dogs alike), go to the grocery store, make some breakfast, and do some stray laundry. A second alarm sounds. Hit snooze?</p>
+                <p>DAY 5: Today is your first weekend class, and you really want to crush it. You set an early alarm that annoys everyone in your house (humans and dogs alike), go to the grocery store, make some breakfast, and do some stray laundry. A second alarm sounds, and you ...</p>
             </div>
         </div>
 

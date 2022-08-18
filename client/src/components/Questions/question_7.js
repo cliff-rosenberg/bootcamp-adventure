@@ -10,7 +10,7 @@ function Question7() {
 
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <p>MERGE to DAY 3: In your second class, you started working in Zoom breakout rooms. The instructional staff encouraged everyone to participate and get to know their virtual classmates. Share a dog pic?</p>
+                <p>DAY 3: In your second class, you started working in Zoom breakout rooms. The instructional staff encouraged everyone to participate and get to know their virtual classmates. You decided to …</p>
             </div>
         </div>
 
