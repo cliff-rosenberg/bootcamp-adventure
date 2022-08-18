@@ -10,7 +10,7 @@ function Question6() {
 
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <p>STARE AT THE SCREEN IN DISBELIEF: After 10 minutes of staring, you lose interest and get up for a snack. Three cancelled delivery orders later, you have your Ben n Jerry's warmed to a gazpacho-like texture that you pretend to like. Mmm, dessert soup.</p>
+                <p>STARE IN DISBELIEF: After 10 minutes of staring, you lose interest and get up for a snack. Three cancelled delivery orders later, you have your Ben n Jerry's warmed to a gazpacho-like texture that you pretend to like. Mmm, dessert soup.</p>
             </div>
         </div>
 

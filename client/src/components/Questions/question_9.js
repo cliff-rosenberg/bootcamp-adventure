@@ -10,7 +10,7 @@ function Question9() {
 
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <p>STAY ON MUTE WITH VIDEO OFF: As did everyone else! On the internet, we call that a “Zoom standoff”</p>
+                <p>MUTE WITH VIDEO OFF: As did everyone else! On the internet, we call that a “Zoom standoff”</p>
             </div>
         </div>
 

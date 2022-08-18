@@ -95,7 +95,7 @@ console.log(question);
                     <div className="row">
                         <div className="col-12 text-center mt-3">
                         <button onClick={() => setQuestion("q_4_yes")} className="btn btn-primary text-center w-25"> Google it  </button>
-                        <button onClick={() => setQuestion("q_4_no")} className="btn btn-primary text-center w-25 ms-2"> Stare at the screen in disbelief </button>
+                        <button onClick={() => setQuestion("q_4_no")} className="btn btn-primary text-center w-25 ms-2"> Stare in disbelief </button>
                         </div>
                     </div>
                 </>
@@ -138,7 +138,7 @@ console.log(question);
                     <div className="row">
                         <div className="col-12 text-center mt-3">
                         <button onClick={() => setQuestion("q_7_yes")} className="btn btn-primary text-center w-25"> Share a dog pic </button>
-                        <button onClick={() => setQuestion("q_7_no")} className="btn btn-primary text-center w-25 ms-2"> Stay on MUTE with video OFF </button>
+                        <button onClick={() => setQuestion("q_7_no")} className="btn btn-primary text-center w-25 ms-2"> MUTE with video OFF </button>
                         </div>
                     </div>
                 </>
@@ -309,7 +309,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setStart(false) & setQuestion('')} className="btn btn-primary text-center w-25"> End Game </button>
+                        <button onClick={() => setStart(false) & setQuestion('')} className="btn btn-primary text-center w-25"> DONATE HERE </button>
                         </div>
                     </div>  
                 </>
