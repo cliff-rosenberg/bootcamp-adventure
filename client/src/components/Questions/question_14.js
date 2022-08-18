@@ -10,7 +10,7 @@ function Question14() {
 
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <p>HIT SNOOZE. Wait, was this all a dream?! Yes, it was. You have just enough time to make instant coffee and put on a t-shirt before logging into class thirty minutes late.</p>
+                <p>HIT SNOOZE: Wait, was this all a dream?! Yes, it was. You have just enough time to make instant coffee and put on a t-shirt before logging into class 30 minutes late.</p>
             </div>
         </div>
 

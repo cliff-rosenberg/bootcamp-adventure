@@ -10,7 +10,7 @@ function Question16() {
 
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <p>MERGE to DAY 6: You watched the class recording, and are reassured that you can learn CSS. Before starting your first homework assignment (due in 4 hours), do you take 20 minutes to review github for relevant examples?</p>
+                <p>DAY 6: You watched the class recording, and are reassured that you can learn CSS. Before starting your first homework assignment (due in 4 hours), you decide to take 20 minutes to ...</p>
             </div>
         </div>
 

@@ -10,7 +10,7 @@ function Question10() {
 
         <div className="row">
             <div className="col-12 text-center mt-3">
-                <p>MERGE to DAY 4: Now that the class recordings and readings are piling up, you decided to focus and start working through them. The first link in the weekly email is a YouTube tutorial on semantic HTML. Click the link?</p>
+                <p>DAY 4: Now that the class recordings and readings are piling up, you decided to focus and start working through them. The first link in the weekly email is a YouTube tutorial on semantic HTML. You decide to ...</p>
             </div>
         </div>
 
