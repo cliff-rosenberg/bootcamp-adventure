@@ -37,7 +37,7 @@ console.log(question);
                 <>
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setStart(true)} className="btn btn-primary text-center w-25"> Start </button>
+                        <button onClick={() => setStart(true)} className="btn btn-secondary text-center w-25"> Start </button>
                         </div>
                     </div>
                 </>
@@ -50,8 +50,8 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_1_yes")} className="btn btn-primary text-center w-25"> Yes </button>
-                        <button onClick={() => setQuestion("q_1_no")} className="btn btn-primary text-center w-25 ms-2"> No </button>
+                        <button onClick={() => setQuestion("q_1_yes")} className="btn btn-secondary text-center w-25"> Yes </button>
+                        <button onClick={() => setQuestion("q_1_no")} className="btn btn-secondary text-center w-25 ms-2"> No </button>
                         </div>
                     </div>
                 </>
@@ -65,7 +65,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_2_yes")} className="btn btn-primary text-center w-25"> Go to Day 2 </button>
+                        <button onClick={() => setQuestion("q_2_yes")} className="btn btn-secondary text-center w-25"> Go to Day 2 </button>
                         </div>
                     </div>
                 </>
@@ -80,7 +80,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_3_yes")} className="btn btn-primary text-center w-25"> Go to Day 2 </button>
+                        <button onClick={() => setQuestion("q_3_yes")} className="btn btn-secondary text-center w-25"> Go to Day 2 </button>
                         </div>
                     </div>
                 </>
@@ -94,8 +94,8 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_4_yes")} className="btn btn-primary text-center w-25"> Google it  </button>
-                        <button onClick={() => setQuestion("q_4_no")} className="btn btn-primary text-center w-25 ms-2"> Stare in disbelief </button>
+                        <button onClick={() => setQuestion("q_4_yes")} className="btn btn-secondary text-center w-25"> Google it  </button>
+                        <button onClick={() => setQuestion("q_4_no")} className="btn btn-secondary text-center w-25 ms-2"> Stare in disbelief </button>
                         </div>
                     </div>
                 </>
@@ -109,7 +109,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_5_yes")} className="btn btn-primary text-center w-25"> Go to Day 3 </button>
+                        <button onClick={() => setQuestion("q_5_yes")} className="btn btn-secondary text-center w-25"> Go to Day 3 </button>
                         </div>
                     </div>
                 </>
@@ -123,7 +123,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_6_yes")} className="btn btn-primary text-center w-25"> Go to Day 3 </button>
+                        <button onClick={() => setQuestion("q_6_yes")} className="btn btn-secondary text-center w-25"> Go to Day 3 </button>
                         </div>
                     </div>
                 </>
@@ -137,8 +137,8 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_7_yes")} className="btn btn-primary text-center w-25"> Share a dog pic </button>
-                        <button onClick={() => setQuestion("q_7_no")} className="btn btn-primary text-center w-25 ms-2"> MUTE with video OFF </button>
+                        <button onClick={() => setQuestion("q_7_yes")} className="btn btn-secondary text-center w-25"> Share a dog pic </button>
+                        <button onClick={() => setQuestion("q_7_no")} className="btn btn-secondary text-center w-25 ms-2"> MUTE with video OFF </button>
                         </div>
                     </div>
                 </>
@@ -152,7 +152,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_8_yes")} className="btn btn-primary text-center w-25"> Go to Day 4 </button>
+                        <button onClick={() => setQuestion("q_8_yes")} className="btn btn-secondary text-center w-25"> Go to Day 4 </button>
                         </div>
                     </div>
                 </>
@@ -166,7 +166,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_9_yes")} className="btn btn-primary text-center w-25"> Go to Day 4 </button>
+                        <button onClick={() => setQuestion("q_9_yes")} className="btn btn-secondary text-center w-25"> Go to Day 4 </button>
                         </div>
                     </div>
                 </>
@@ -180,8 +180,8 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_10_yes")} className="btn btn-primary text-center w-25"> Click on the link </button>
-                        <button onClick={() => setQuestion("q_10_no")} className="btn btn-primary text-center w-25 ms-2"> Start with the docs </button>
+                        <button onClick={() => setQuestion("q_10_yes")} className="btn btn-secondary text-center w-25"> Click on the link </button>
+                        <button onClick={() => setQuestion("q_10_no")} className="btn btn-secondary text-center w-25 ms-2"> Start with the docs </button>
                         </div>
                     </div>
                 </>
@@ -195,7 +195,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_11_yes")} className="btn btn-primary text-center w-25"> Go to Day 5 </button>
+                        <button onClick={() => setQuestion("q_11_yes")} className="btn btn-secondary text-center w-25"> Go to Day 5 </button>
                         </div>
                     </div>
                 </>
@@ -209,7 +209,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_12_yes")} className="btn btn-primary text-center w-25"> Go to Day 5 </button>
+                        <button onClick={() => setQuestion("q_12_yes")} className="btn btn-secondary text-center w-25"> Go to Day 5 </button>
                         </div>
                     </div>
                 </>
@@ -223,8 +223,8 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_13_yes")} className="btn btn-primary text-center w-25"> Hit SNOOZE </button>
-                        <button onClick={() => setQuestion("q_13_no")} className="btn btn-primary text-center w-25 ms-2"> Go to brunch instead </button>
+                        <button onClick={() => setQuestion("q_13_yes")} className="btn btn-secondary text-center w-25"> Hit SNOOZE </button>
+                        <button onClick={() => setQuestion("q_13_no")} className="btn btn-secondary text-center w-25 ms-2"> Go to brunch instead </button>
                         </div>
                     </div>
                 </>
@@ -238,7 +238,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_14_yes")} className="btn btn-primary text-center w-25"> Go to Day 6 </button>
+                        <button onClick={() => setQuestion("q_14_yes")} className="btn btn-secondary text-center w-25"> Go to Day 6 </button>
                         </div>
                     </div>
                 </>
@@ -252,7 +252,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_15_yes")} className="btn btn-primary text-center w-25"> Go to Day 6 </button>
+                        <button onClick={() => setQuestion("q_15_yes")} className="btn btn-secondary text-center w-25"> Go to Day 6 </button>
                         </div>
                     </div>
                 </>
@@ -266,8 +266,8 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_16_yes")} className="btn btn-primary text-center w-25"> Review GitHub </button>
-                        <button onClick={() => setQuestion("q_16_no")} className="btn btn-primary text-center w-25 ms-2"> Work on mnemonic devices </button>
+                        <button onClick={() => setQuestion("q_16_yes")} className="btn btn-secondary text-center w-25"> Review GitHub </button>
+                        <button onClick={() => setQuestion("q_16_no")} className="btn btn-secondary text-center w-25 ms-2"> Work on mnemonic devices </button>
                         </div>
                     </div>
                 </>
@@ -281,7 +281,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_17_yes")} className="btn btn-primary text-center w-25"> Go to Day 7 </button>
+                        <button onClick={() => setQuestion("q_17_yes")} className="btn btn-secondary text-center w-25"> Go to Day 7 </button>
                         </div>
                     </div>
                 </>
@@ -295,7 +295,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setQuestion("q_18_yes")} className="btn btn-primary text-center w-25"> Go to Day 7 </button>
+                        <button onClick={() => setQuestion("q_18_yes")} className="btn btn-secondary text-center w-25"> Go to Day 7 </button>
                         </div>
                     </div>
                 </>
@@ -309,7 +309,7 @@ console.log(question);
 
                     <div className="row">
                         <div className="col-12 text-center mt-3">
-                        <button onClick={() => setStart(false) & setQuestion('')} className="btn btn-primary text-center w-25"> DONATE HERE </button>
+                        <button onClick={() => setStart(false) & setQuestion('')} className="btn btn-secondary text-center w-25"> DONATE HERE </button>
                         </div>
                     </div>  
                 </>
