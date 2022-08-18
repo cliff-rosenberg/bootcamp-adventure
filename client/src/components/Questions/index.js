@@ -281,7 +281,7 @@ function Questions(props) {
                     <Question15 />
 
                     <div className="row">
-                        <div className="col-12 text-cente
+                        <div className="col-12 text-center mt-3">
                         <button onClick={() => setQuestion("q_15_yes")} className="btn btn-secondary text-center w-25"> Go to Day 6 </button>
                         </div>
                     </div>
