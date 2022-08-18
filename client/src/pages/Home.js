@@ -15,7 +15,7 @@ const Home = () => {
         <Nav />
         <div className="row">
                         <div className="col-12 text-center mt-3">
-                            <img src="/images/Logo3.png" alt="large logo" className="img w-100"></img>
+                            <img src="/images/Logo3.png" alt="large logo" className="img w-75"></img>
                         </div>
                     </div>
         {Auth.loggedIn() ? (
