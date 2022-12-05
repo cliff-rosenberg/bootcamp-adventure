@@ -25,7 +25,7 @@ This is a simple text-based game rendered by React that allows the user to navig
 
 ## Installation 🖥
 
-No installation is necessary, the application is hosted live on Heroku: [https://hidden-falls-09723.herokuapp.com/](https://hidden-falls-09723.herokuapp.com/)
+As of November 2022, Heroku has no "free" accounts, so the demo application has been taken offline until another suitable host can be found.
 
 ## Screenshots 📸
 
