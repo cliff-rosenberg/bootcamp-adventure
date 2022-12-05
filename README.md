@@ -35,7 +35,7 @@ Initial launch screen:
 
 ## Usage 👈
 
-Navigate to the URL [https://hidden-falls-09723.herokuapp.com/](https://hidden-falls-09723.herokuapp.com/) - Then create a user login and launch the game.
+As stated above, starting November 2022 Heroku has no "free" accounts, so the demo application has been taken offline until another suitable host can be found.
 
 ## Credits 💬
 
